@@ -30,3 +30,10 @@ e.target.parentElement.remove();
     }
 } )
 ```
+My Experience:
+
+I finished a course at __Udemy__, where developed projects such as __todo-list__, **Wheather app**, **Real-tyme chat** and so one. Also developed client-server application using Java language with JavaFX on the topic "Construction organization" with the calculation of various indicators.
+
+the last project is here: https://github.com/AlinaSuhorebraya/coursework_server and here: https://github.com/AlinaSuhorebraya/course_work_client
+
+English: I took courses for 2 years and achieved a Intermidiate level.
