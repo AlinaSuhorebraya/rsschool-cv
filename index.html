@@ -11,6 +11,9 @@
     list-style-type: none; 
     content: "- ";
         }
+        body{
+            background: rgb(199, 181, 175);
+        }
  
     </style>
     <title>HTML, CSS & Git Basics</title>
@@ -18,13 +21,13 @@
 <body>
     <div style="text-align: center; max-width: 1024px; margin: 0 auto;">
 
-        <h1>Suhorebraya Alina</h1>
+        <h1 style="color: rgb(65, 28, 28);">Suhorebraya Alina</h1>
 
-          <article>
+         <article>
 
-            <h2>My contact info:</h2>
+            <h2 style="font-family:Arial, Helvetica, sans-serif;">My contact info:</h2>
 
-            <ul class="line">
+            <ul class="line" style="text-decoration: underline;">
                 <li>
                     Phone number: +375333024072
                 </li>
@@ -36,14 +39,16 @@
                 </li>
             </ul>
     
-            <p> 
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> 
                 My goal is to constantly learn something new and improve my skills, always looking for answers to difficult tasks with pleasure.
             </p>
-            <p>
+
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                 Self-development is very important for me. I want to improve my knowledge in web development and achieve success in this direction, create resources that will be useful to many.
             </p>
 
-        <h2>Skills:</h2>
+        <h2 style="font-family:Arial, Helvetica, sans-serif;">Skills:</h2>
+
         <div style="width: 200px; max-width: 200px; margin: 0 auto; text-align: left;">
             <ul>
                 <li> Languages:
@@ -61,16 +66,29 @@
                 </li>
             </ul>
         </div>
+
         <p>For example, one event function in JavaScript:</p>
-        <pre  style="width: 300px; max-width: 300px; margin: 0 auto; text-align: left;"><code>list.addEventListener('click',e=>{
+
+        <pre  style="width: 300px; max-width: 300px; margin: 0 auto; text-align: left; color:rgb(91, 91, 151)"><code>list.addEventListener('click',e=>{
             if(e.target.classList.contains('delete'))
             {
         e.target.parentElement.remove();
             }
         } )</code></pre>
-            </article>
-        <h3>My Experience</h3>
-        <p style="margin-top: 30px">I finished a course at <strong>Udemy</strong>, where developed projects such as __todo-list__, **Wheather app**, **Real-tyme chat** and so one. Also developed client-server application using Java language with JavaFX on the topic "Construction organization" with the calculation of various indicators.</p>
+           
+
+        <h3 style="font-family:Arial, Helvetica, sans-serif;">My Experience</h3>
+
+        <p style="margin-top: 30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">I finished a course at <strong>Udemy</strong>, where developed projects such as <strong>todo-list</strong>, <strong>Wheather app</strong>, <strong>Real-tyme chat</strong> and so one. Also developed client-server application using Java language with JavaFX on the topic "Construction organization" with the calculation of various indicators.</p>
+        <p style="margin-top: 30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">the last project is here:
+
+            <nav> <a href="https://github.com/AlinaSuhorebraya/coursework_server">https://github.com/AlinaSuhorebraya/coursework_server </a>
+        and here: <a href="https://github.com/AlinaSuhorebraya/course_work_client">https://github.com/AlinaSuhorebraya/course_work_client</a>
+    </nav>
+        </p>
+        <p style="font-family:Arial, Helvetica, sans-serif;">English: I took courses for 2 years and achieved a Intermidiate level.</p>
+    </article>
     </div>
+    
 </body>
 </html>
